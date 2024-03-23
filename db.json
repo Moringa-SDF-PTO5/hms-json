@@ -1,102 +1,587 @@
 {
-  "transactions": [
-    {
-      "id": 1,
-      "date": "2019-12-01",
-      "description": "Paycheck from Bob's Burgers",
-      "category": "Income",
-      "amount": 1000
-    },
-    {
-      "id": 2,
-      "date": "2019-12-01",
-      "description": "South by Southwest Quinoa Bowl at Fresh & Co",
-      "category": "Food",
-      "amount": -10.55
-    },
-    {
-      "id": 3,
-      "date": "2019-12-02",
-      "description": "South by Southwest Quinoa Bowl at Fresh & Co",
-      "category": "Food",
-      "amount": -10.55
-    },
-    {
-      "id": 4,
-      "date": "2019-12-04",
-      "description": "Sunglasses, Urban Outfitters",
-      "category": "Fashion",
-      "amount": -24.99
-    },
-    {
-      "id": 5,
-      "date": "2019-12-06",
-      "description": "Venmo, Alice Pays you for Burrito",
-      "category": "Food",
-      "amount": 8.75
-    },
-    {
-      "id": 6,
-      "date": "2019-12-06",
-      "description": "Chipotle",
-      "category": "Food",
-      "amount": -17.59
-    },
-    {
-      "id": 7,
-      "date": "2019-12-07",
-      "description": "Birthday Check from Grandma",
-      "category": "Gift",
-      "amount": 50
-    },
-    {
-      "id": 8,
-      "date": "2019-12-09",
-      "description": "Lyft Ride",
-      "category": "Transportation",
-      "amount": -13.25
-    },
-    {
-      "id": 9,
-      "date": "2019-12-11",
-      "description": "Paycheck from Bob's Burgers",
-      "category": "Income",
-      "amount": 1000
-    },
-    {
-      "id": 10,
-      "date": "2019-12-16",
-      "description": "Tickets, Flatiron Multiplex Cinemas",
-      "category": "Entertainment",
-      "amount": -24
-    },
-    {
-      "id": 11,
-      "date": "2019-12-16",
-      "description": "MTA Vending Machine: MetroCard",
-      "category": "Transportation",
-      "amount": -116.39
-    },
-    {
-      "id": 12,
-      "date": "2019-12-17",
-      "description": "Venmo, Pay Roommate for Rent",
-      "category": "Housing",
-      "amount": -975
-    },
-    {
-      "date": "2022-07-09",
-      "description": "Office lunch",
-      "category": "Food",
-      "amount": "2000",
-      "id": 13
-    },
-    {
-      "date": "2022-07-09",
-      "description": "Office lunch Wednesday",
-      "category": "Food",
-      "amount": "3000",
-      "id": 14
+    "doctors": [
+      {
+        "id": 101,
+        "name": "Dr. David Johnson",
+        "specialty": "Cardiology",
+        "contact": "555-123-4567",
+        "email": "dr.david@example.com",
+        "hospital": "City Hospital",
+        "officeHours": "Monday-Friday, 9am-5pm",
+        "roomNumber": "210",
+        "bio": "Dr. David Johnson is a board-certified cardiologist with over 15 years of experience...",
+        "patients": [1, 3, 5],
+        "schedule": [
+          {
+            "day": "Monday",
+            "timeSlots": [
+              { "start": "09:00 AM", "end": "12:00 PM" },
+              { "start": "02:00 PM", "end": "05:00 PM" }
+            ]
+          },
+          {
+            "day": "Tuesday",
+          "timeSlots": [
+            { "start": "10:00 AM", "end": "01:00 PM" },
+            { "start": "03:00 PM", "end": "06:00 PM" }
+          ]
+          }
+        ] 
+      },
+      {
+        "id": 102,
+        "name": "Dr. Sarah Lee",
+        "specialty": "Pediatrics",
+        "contact": "555-987-6543",
+        "email": "dr.sarah@example.com",
+        "hospital": "Children's Hospital",
+        "officeHours": "Monday-Friday, 8am-4pm",
+        "roomNumber": "305",
+        "bio": "Dr. Sarah Lee specializes in pediatric care and has a passion for helping children...",
+        "patients": [2, 4]  
+      },
+      {
+        "id": 103,
+        "name": "Dr. Michael Brown",
+        "specialty": "Orthopedics",
+        "contact": "555-222-3333",
+        "email": "dr.michael@example.com",
+        "hospital": "Community Hospital",
+        "officeHours": "Monday-Wednesday-Friday, 9am-1pm",
+        "roomNumber": "410",
+        "bio": "Dr. Michael Brown is an orthopedic surgeon specializing in sports injuries and joint replacements...",
+        "patients": [6, 8, 10]  
+      },
+      {
+        "id": 104,
+        "name": "Dr. Emily Nguyen",
+        "specialty": "Oncology",
+        "contact": "555-444-5555",
+        "email": "dr.emily@example.com",
+        "hospital": "University Medical Center",
+        "officeHours": "Tuesday-Thursday, 10am-3pm",
+        "roomNumber": "512",
+        "bio": "Dr. Emily Nguyen is an oncologist dedicated to providing compassionate care to cancer patients...",
+        "patients": [7, 9],
+        "schedule": [
+          {
+            "day": "Tuesday",
+            "timeSlots": [
+              { "start": "10:00 AM", "end": "01:00 PM" },
+              { "start": "03:00 PM", "end": "06:00 PM" }
+            ]
+          },
+          {
+            "day": "Thursday",
+            "timeSlots": [
+              { "start": "10:00 AM", "end": "01:00 PM" },
+              { "start": "03:00 PM", "end": "06:00 PM" }
+            ]
+          }
+        ]
+
+      },
+      {
+        "id": 105,
+        "name": "Dr. Jason Patel",
+        "specialty": "Dermatology",
+        "contact": "555-666-7777",
+        "email": "dr.jason@example.com",
+        "hospital": "Dermatology Clinic",
+        "officeHours": "Monday-Friday, 8am-12pm",
+        "roomNumber": "108",
+        "bio": "Dr. Jason Patel specializes in diagnosing and treating skin conditions...",
+        "patients": [11, 12]  
+      },
+      {
+        "id": 106,
+        "name": "Dr. Maria Rodriguez",
+        "specialty": "Internal Medicine",
+        "contact": "555-777-8888",
+        "email": "dr.maria@example.com",
+        "hospital": "City Medical Center",
+        "officeHours": "Monday-Friday, 9am-6pm",
+        "roomNumber": "320",
+        "bio": "Dr. Maria Rodriguez provides comprehensive care for adults, focusing on preventive medicine and chronic disease management...",
+        "patients": [13, 14, 15]  
+      },
+      {
+        "id": 101,
+        "name": "Dr. David Johnson",
+        "specialty": "Cardiology",
+        "contact": "555-123-4567",
+        "email": "dr.david@example.com",
+        "hospital": "City Hospital",
+        "officeHours": "Monday-Friday, 9am-5pm",
+        "roomNumber": "210",
+        "bio": "Dr. David Johnson is a board-certified cardiologist with over 15 years of experience...",
+        "patients": [1, 3, 5]  
+      },
+      {
+        "id": 102,
+        "name": "Dr. Sarah Lee",
+        "specialty": "Pediatrics",
+        "contact": "555-987-6543",
+        "email": "dr.sarah@example.com",
+        "hospital": "Children's Hospital",
+        "officeHours": "Monday-Friday, 8am-4pm",
+        "roomNumber": "305",
+        "bio": "Dr. Sarah Lee specializes in pediatric care and has a passion for helping children...",
+        "patients": [2, 4]  
+      },
+      {
+        "id": 103,
+        "name": "Dr. Michael Brown",
+        "specialty": "Orthopedics",
+        "contact": "555-222-3333",
+        "email": "dr.michael@example.com",
+        "hospital": "Community Hospital",
+        "officeHours": "Monday-Wednesday-Friday, 9am-1pm",
+        "roomNumber": "410",
+        "bio": "Dr. Michael Brown is an orthopedic surgeon specializing in sports injuries and joint replacements...",
+        "patients": [6, 8, 10]  
+      },
+      {
+        "id": 104,
+        "name": "Dr. Emily Nguyen",
+        "specialty": "Oncology",
+        "contact": "555-444-5555",
+        "email": "dr.emily@example.com",
+        "hospital": "University Medical Center",
+        "officeHours": "Tuesday-Thursday, 10am-3pm",
+        "roomNumber": "512",
+        "bio": "Dr. Emily Nguyen is an oncologist dedicated to providing compassionate care to cancer patients...",
+        "patients": [7, 9]  
+      }
+      
+    ],
+    "staffMembers": [
+        {
+          "id": 201,
+          "name": "Nurse Lisa",
+          "position": "Registered Nurse",
+          "contact": "555-456-7890",
+          "email": "nurse.lisa@example.com",
+          "department": "Emergency Department",
+          "shift": "Night shift, 7pm-7am",
+          "responsibilities": "Assisting doctors during patient examinations, administering medications, monitoring patient vitals",
+          "certifications": ["BLS", "ACLS"]
+        },
+        {
+          "id": 202,
+          "name": "Receptionist Mike",
+          "position": "Front Desk Staff",
+          "contact": "555-321-9876",
+          "email": "receptionist.mike@example.com",
+          "department": "Administration",
+          "shift": "Day shift, 8am-4pm",
+          "responsibilities": "Greeting patients, scheduling appointments, handling phone calls, managing patient records",
+          "certifications": []
+        },
+        {
+          "id": 203,
+          "name": "Physician Assistant Sarah",
+          "position": "Physician Assistant",
+          "contact": "555-987-6543",
+          "email": "pa.sarah@example.com",
+          "department": "Emergency Department",
+          "shift": "Rotating shifts",
+          "responsibilities": "Assisting doctors in diagnosis and treatment, performing medical procedures, patient education",
+          "certifications": ["PA-C", "BLS", "ACLS"]
+        },
+        {
+          "id": 204,
+          "name": "Medical Technologist Alex",
+          "position": "Medical Technologist",
+          "contact": "555-555-5555",
+          "email": "mt.alex@example.com",
+          "department": "Laboratory",
+          "shift": "Evening shift, 3pm-11pm",
+          "responsibilities": "Performing laboratory tests, analyzing samples, maintaining lab equipment",
+          "certifications": ["MT(ASCP)"]
+        },
+        {
+          "id": 205,
+          "name": "Physical Therapist Emily",
+          "position": "Physical Therapist",
+          "contact": "555-123-4567",
+          "email": "pt.emily@example.com",
+          "department": "Rehabilitation Services",
+          "shift": "Day shift, 9am-5pm",
+          "responsibilities": "Assessing patient needs, developing treatment plans, conducting therapy sessions",
+          "certifications": ["PT"]
+        }
+    ],
+    "patients": [
+        {
+          "id": 1,
+          "name": "John Doe",
+          "age": 35,
+          "gender": "Male",
+          "contact": "123-456-7890",
+          "email": "john@example.com",
+          "address": "123 Main St, Cityville, ABC",
+          "medicalHistory": "Hypertension, Allergies to penicillin",
+          "emergencyContact": {
+            "name": "Jane Doe",
+            "relationship": "Spouse",
+            "contact": "456-789-1234"
+          }
+        },
+        {
+          "id": 2,
+          "name": "Jane Smith",
+          "age": 28,
+          "gender": "Female",
+          "contact": "987-654-3210",
+          "email": "jane@example.com",
+          "address": "456 Elm St, Townsville, XYZ",
+          "medicalHistory": "Asthma",
+          "emergencyContact": {
+            "name": "John Smith",
+            "relationship": "Parent",
+            "contact": "789-123-4567"
+          }
+        },
+     
+        {
+          "id": 3,
+          "name": "Michael Johnson",
+          "age": 45,
+          "gender": "Male",
+          "contact": "555-222-3333",
+          "email": "michael@example.com",
+          "address": "789 Oak St, Villageton, XYZ",
+          "medicalHistory": "Diabetes",
+          "emergencyContact": {
+            "name": "Mary Johnson",
+            "relationship": "Spouse",
+            "contact": "321-987-6543"
+          }
+        },
+        {
+          "id": 4,
+          "name": "Emily Wilson",
+          "age": 32,
+          "gender": "Female",
+          "contact": "555-444-5555",
+          "email": "emily@example.com",
+          "address": "101 Pine St, Parkville, XYZ",
+          "medicalHistory": "High blood pressure",
+          "emergencyContact": {
+            "name": "James Wilson",
+            "relationship": "Sibling",
+            "contact": "654-321-9876"
+          }
+        },
+        {
+          "id": 5,
+          "name": "Daniel Brown",
+          "age": 50,
+          "gender": "Male",
+          "contact": "555-666-7777",
+          "email": "daniel@example.com",
+          "address": "567 Maple Ave, Suburbia, XYZ",
+          "medicalHistory": "Arthritis, High cholesterol",
+          "emergencyContact": {
+            "name": "Sarah Brown",
+            "relationship": "Spouse",
+            "contact": "789-987-6543"
+          }
+        },
+        {
+          "id": 6,
+          "name": "Sophia Garcia",
+          "age": 25,
+          "gender": "Female",
+          "contact": "555-888-9999",
+          "email": "sophia@example.com",
+          "address": "876 Oak St, Metroville, XYZ",
+          "medicalHistory": "Anxiety disorder",
+          "emergencyContact": {
+            "name": "Maria Garcia",
+            "relationship": "Parent",
+            "contact": "987-654-3210"
+          }
+        }
+    ],
+      "medicine": [
+        {
+          "type": "Painkiller",
+          "name": "Paracetamol",
+          "boxes_remaining": 100,
+          "cost_per_box": 5.50
+        },
+        {
+          "type": "Painkiller",
+          "name": "Ibuprofen",
+          "boxes_remaining": 75,
+          "cost_per_box": 7.20
+        },
+        {
+          "type": "Antihistamine",
+          "name": "Loratadine",
+          "boxes_remaining": 50,
+          "cost_per_box": 8.75
+        },
+        {
+          "type": "Antibiotic",
+          "name": "Amoxicillin",
+          "boxes_remaining": 60,
+          "cost_per_box": 15.00
+        },
+        {
+          "type": "Antacid",
+          "name": "Omeprazole",
+          "boxes_remaining": 40,
+          "cost_per_box": 12.50
+        },
+        {
+          "type": "Painkiller",
+          "name": "Aspirin",
+          "boxes_remaining": 80,
+          "cost_per_box": 6.25
+        },
+        {
+          "type": "Antihistamine",
+          "name": "Cetirizine",
+          "boxes_remaining": 65,
+          "cost_per_box": 9.00
+        },
+        {
+          "type": "Antibiotic",
+          "name": "Penicillin",
+          "boxes_remaining": 55,
+          "cost_per_box": 14.50
+        },
+        {
+          "type": "Antacid",
+          "name": "Ranitidine",
+          "boxes_remaining": 45,
+          "cost_per_box": 11.75
+        },
+        {
+          "type": "Painkiller",
+          "name": "Tramadol",
+          "boxes_remaining": 70,
+          "cost_per_box": 8.90
+        },
+        {
+          "type": "Antihistamine",
+          "name": "Diphenhydramine",
+          "boxes_remaining": 60,
+          "cost_per_box": 10.25
+        },
+        {
+          "type": "Antibiotic",
+          "name": "Ciprofloxacin",
+          "boxes_remaining": 58,
+          "cost_per_box": 16.75
+        },
+        {
+          "type": "Antacid",
+          "name": "Famotidine",
+          "boxes_remaining": 42,
+          "cost_per_box": 13.20
+        },
+        {
+          "type": "Painkiller",
+          "name": "Naproxen",
+          "boxes_remaining": 72,
+          "cost_per_box": 7.80
+        },
+        {
+          "type": "Antihistamine",
+          "name": "Fexofenadine",
+          "boxes_remaining": 63,
+          "cost_per_box": 9.50
+        },
+        {
+          "type": "Antibiotic",
+          "name": "Azithromycin",
+          "boxes_remaining": 57,
+          "cost_per_box": 17.25
+        },
+        {
+          "type": "Antacid",
+          "name": "Pantoprazole",
+          "boxes_remaining": 48,
+          "cost_per_box": 12.00
+        },
+        {
+          "type": "Painkiller",
+          "name": "Codeine",
+          "boxes_remaining": 68,
+          "cost_per_box": 9.75
+        },
+        {
+          "type": "Antihistamine",
+          "name": "Chlorpheniramine",
+          "boxes_remaining": 61,
+          "cost_per_box": 11.00
+        },
+        {
+          "type": "Antibiotic",
+          "name": "Clindamycin",
+          "boxes_remaining": 53,
+          "cost_per_box": 18.00
+        },
+        {
+          "type": "Antacid",
+          "name": "Aluminum hydroxide",
+          "boxes_remaining": 47,
+          "cost_per_box": 14.50
+        },
+        {
+          "type": "Painkiller",
+          "name": "Morphine",
+          "boxes_remaining": 66,
+          "cost_per_box": 11.20
+        },
+        {
+          "type": "Antihistamine",
+          "name": "Levocetirizine",
+          "boxes_remaining": 64,
+          "cost_per_box": 10.50
+        },
+        {
+          "type": "Antibiotic",
+          "name": "Doxycycline",
+          "boxes_remaining": 54,
+          "cost_per_box": 16.00
+        },
+        {
+          "type": "Antacid",
+          "name": "Calcium carbonate",
+          "boxes_remaining": 49,
+          "cost_per_box": 13.75
+        },
+        {
+          "type": "Painkiller",
+          "name": "Hydrocodone",
+          "boxes_remaining": 69,
+          "cost_per_box": 10.75
+        },
+        {
+          "type": "Antihistamine",
+          "name": "Promethazine",
+          "boxes_remaining": 62,
+          "cost_per_box": 12.50
+        },
+        {
+          "type": "Antibiotic",
+          "name": "Erythromycin",
+          "boxes_remaining": 52,
+          "cost_per_box": 15.50
+        },
+        {
+          "type": "Antacid",
+          "name": "Magnesium hydroxide",
+          "boxes_remaining": 46,
+          "cost_per_box": 14.00
+        },
+        {
+          "type": "Painkiller",
+          "name": "Oxycodone",
+          "boxes_remaining": 67,
+          "cost_per_box": 12.00
+        },
+        {
+          "type": "Antihistamine",
+          "name": "Desloratadine",
+          "boxes_remaining": 59,
+          "cost_per_box": 11.25
+        },
+        {
+          "type": "Antibiotic",
+          "name": "Metronidazole",
+          "boxes_remaining": 56,
+          "cost_per_box": 17.00
+        },
+        {
+          "type": "Antacid",
+          "name": "Sodium bicarbonate",
+          "boxes_remaining": 44,
+          "cost_per_box": 13.50
+        },
+        {
+          "type": "Painkiller",
+          "name": "Methadone",
+          "boxes_remaining": 71,
+          "cost_per_box": 11.50
+        },
+        {
+          "type": "Antihistamine",
+          "name": "Hydroxyzine",
+          "boxes_remaining": 58,
+          "cost_per_box": 10.75
+        },
+        {
+          "type": "Antibiotic",
+          "name": "Tetracycline",
+          "boxes_remaining": 51,
+          "cost_per_box": 16.25
+        },
+        {
+          "type": "Antacid",
+          "name": "Sucralfate",
+          "boxes_remaining": 43,
+          "cost_per_box": 12.75
+        },
+        {
+          "type": "Painkiller",
+          "name": "Fentanyl",
+          "boxes_remaining": 65,
+          "cost_per_box": 12.75
+        },
+        {
+          "type": "Antihistamine",
+          "name": "Astemizole",
+          "boxes_remaining": 57,
+          "cost_per_box": 11.00
+        },
+        {
+          "type": "Antibiotic",
+          "name": "Vancomycin",
+          "boxes_remaining": 53,
+          "cost_per_box": 16.75
+        },
+        {
+          "type": "Antacid",
+          "name": "Misoprostol",
+          "boxes_remaining": 42,
+          "cost_per_box": 12.20
+        },
+        {
+          "type": "Painkiller",
+          "name": "Morphine",
+          "boxes_remaining": 63,
+          "cost_per_box": 11.90
+        },
+        {
+          "type": "Antihistamine",
+          "name": "Terfenadine",
+          "boxes_remaining": 59,
+          "cost_per_box": 11.25
+        },
+        {
+          "type": "Antibiotic",
+          "name": "Gentamicin",
+          "boxes_remaining": 55,
+          "cost_per_box": 15.50
+        },
+        {
+          "type": "Antacid",
+          "name": "Rabeprazole",
+          "boxes_remaining": 40,
+          "cost_per_box": 11.75
+        }
+      ]
     }
-  ]
-}
+    
+    
+    
+
+
+
+    
