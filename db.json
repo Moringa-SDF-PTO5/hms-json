@@ -543,277 +543,231 @@
             "contact": "555-999-1111"
           }
         }
-      ],
+      ], 
       "medicine": [
         {
-          "type": "Painkiller",
-          "name": "Paracetamol",
-          "boxes_remaining": 100,
-          "cost_per_box": 5.50
-        },
-        {
+          "id": 2,
           "type": "Painkiller",
           "name": "Ibuprofen",
           "boxes_remaining": 75,
-          "cost_per_box": 7.20
+          "cost_per_box": "7.3"
         },
         {
+          "id": 3,
           "type": "Antihistamine",
           "name": "Loratadine",
           "boxes_remaining": 50,
           "cost_per_box": 8.75
         },
         {
+          "id": 4,
           "type": "Antibiotic",
           "name": "Amoxicillin",
           "boxes_remaining": 60,
-          "cost_per_box": 15.00
-        },
+          "cost_per_box": 15
+        }, 
         {
+          "id": 5,
           "type": "Antacid",
           "name": "Omeprazole",
           "boxes_remaining": 40,
-          "cost_per_box": 12.50
+          "cost_per_box": 12.5
         },
         {
+          "id": 6,
           "type": "Painkiller",
           "name": "Aspirin",
           "boxes_remaining": 80,
           "cost_per_box": 6.25
         },
         {
+          "id": 7,
           "type": "Antihistamine",
           "name": "Cetirizine",
           "boxes_remaining": 65,
-          "cost_per_box": 9.00
+          "cost_per_box": 9
         },
         {
+          "id": 8,
           "type": "Antibiotic",
           "name": "Penicillin",
           "boxes_remaining": 55,
-          "cost_per_box": 14.50
+          "cost_per_box": 14.5
         },
         {
+          "id": 9,
           "type": "Antacid",
           "name": "Ranitidine",
           "boxes_remaining": 45,
           "cost_per_box": 11.75
         },
         {
+          "id": 10,
           "type": "Painkiller",
           "name": "Tramadol",
           "boxes_remaining": 70,
-          "cost_per_box": 8.90
+          "cost_per_box": 8.9
         },
         {
+          "id": 11,
           "type": "Antihistamine",
           "name": "Diphenhydramine",
           "boxes_remaining": 60,
           "cost_per_box": 10.25
         },
         {
+          "id": 12,
           "type": "Antibiotic",
           "name": "Ciprofloxacin",
           "boxes_remaining": 58,
           "cost_per_box": 16.75
         },
         {
+          "id": 13,
           "type": "Antacid",
           "name": "Famotidine",
           "boxes_remaining": 42,
-          "cost_per_box": 13.20
+          "cost_per_box": 13.2
         },
         {
+          "id": 14,
           "type": "Painkiller",
           "name": "Naproxen",
           "boxes_remaining": 72,
-          "cost_per_box": 7.80
+          "cost_per_box": 7.8
         },
         {
+          "id": 15,
           "type": "Antihistamine",
           "name": "Fexofenadine",
           "boxes_remaining": 63,
-          "cost_per_box": 9.50
+          "cost_per_box": 9.5
         },
         {
+          "id": 16,
           "type": "Antibiotic",
           "name": "Azithromycin",
           "boxes_remaining": 57,
           "cost_per_box": 17.25
         },
         {
+          "id": 17,
           "type": "Antacid",
           "name": "Pantoprazole",
           "boxes_remaining": 48,
-          "cost_per_box": 12.00
+          "cost_per_box": 12
         },
         {
+          "id": 18,
           "type": "Painkiller",
           "name": "Codeine",
           "boxes_remaining": 68,
           "cost_per_box": 9.75
         },
         {
+          "id": 19,
           "type": "Antihistamine",
           "name": "Chlorpheniramine",
           "boxes_remaining": 61,
-          "cost_per_box": 11.00
+          "cost_per_box": 11
         },
         {
+          "id": 20,
           "type": "Antibiotic",
           "name": "Clindamycin",
           "boxes_remaining": 53,
-          "cost_per_box": 18.00
+          "cost_per_box": 18
         },
         {
+          "id": 21,
           "type": "Antacid",
           "name": "Aluminum hydroxide",
           "boxes_remaining": 47,
-          "cost_per_box": 14.50
+          "cost_per_box": 14.5
         },
         {
+          "id": 22,
           "type": "Painkiller",
           "name": "Morphine",
           "boxes_remaining": 66,
-          "cost_per_box": 11.20
+          "cost_per_box": 11.2
         },
         {
+          "id": 23,
           "type": "Antihistamine",
           "name": "Levocetirizine",
           "boxes_remaining": 64,
-          "cost_per_box": 10.50
+          "cost_per_box": 10.5
         },
         {
+          "id": 24,
           "type": "Antibiotic",
           "name": "Doxycycline",
           "boxes_remaining": 54,
-          "cost_per_box": 16.00
+          "cost_per_box": 16
         },
         {
+          "id": 25,
           "type": "Antacid",
           "name": "Calcium carbonate",
           "boxes_remaining": 49,
           "cost_per_box": 13.75
         },
         {
+          "id": 26,
           "type": "Painkiller",
           "name": "Hydrocodone",
           "boxes_remaining": 69,
           "cost_per_box": 10.75
         },
         {
+          "id": 27,
           "type": "Antihistamine",
           "name": "Promethazine",
           "boxes_remaining": 62,
-          "cost_per_box": 12.50
+          "cost_per_box": 12.5
         },
         {
+          "id": 28,
           "type": "Antibiotic",
           "name": "Erythromycin",
           "boxes_remaining": 52,
-          "cost_per_box": 15.50
+          "cost_per_box": 15.5
         },
         {
+          "id": 29,
           "type": "Antacid",
           "name": "Magnesium hydroxide",
           "boxes_remaining": 46,
-          "cost_per_box": 14.00
+          "cost_per_box": 14
         },
         {
+          "id": 26,
           "type": "Painkiller",
-          "name": "Oxycodone",
-          "boxes_remaining": 67,
-          "cost_per_box": 12.00
-        },
-        {
-          "type": "Antihistamine",
-          "name": "Desloratadine",
-          "boxes_remaining": 59,
-          "cost_per_box": 11.25
-        },
-        {
-          "type": "Antibiotic",
-          "name": "Metronidazole",
-          "boxes_remaining": 56,
-          "cost_per_box": 17.00
-        },
-        {
-          "type": "Antacid",
-          "name": "Sodium bicarbonate",
-          "boxes_remaining": 44,
-          "cost_per_box": 13.50
-        },
-        {
-          "type": "Painkiller",
-          "name": "Methadone",
-          "boxes_remaining": 71,
-          "cost_per_box": 11.50
-        },
-        {
-          "type": "Antihistamine",
-          "name": "Hydroxyzine",
-          "boxes_remaining": 58,
+          "name": "Hydrocodone",
+          "boxes_remaining": 69,
           "cost_per_box": 10.75
         },
         {
-          "type": "Antibiotic",
-          "name": "Tetracycline",
-          "boxes_remaining": 51,
-          "cost_per_box": 16.25
-        },
-        {
-          "type": "Antacid",
-          "name": "Sucralfate",
-          "boxes_remaining": 43,
-          "cost_per_box": 12.75
-        },
-        {
-          "type": "Painkiller",
-          "name": "Fentanyl",
-          "boxes_remaining": 65,
-          "cost_per_box": 12.75
-        },
-        {
+          "id": 27,
           "type": "Antihistamine",
-          "name": "Astemizole",
-          "boxes_remaining": 57,
-          "cost_per_box": 11.00
+          "name": "Promethazine",
+          "boxes_remaining": 62,
+          "cost_per_box": 12.5
         },
         {
+          "id": 28,
           "type": "Antibiotic",
-          "name": "Vancomycin",
-          "boxes_remaining": 53,
-          "cost_per_box": 16.75
+          "name": "Erythromycin",
+          "boxes_remaining": 52,
+          "cost_per_box": 15.5
         },
         {
+          "id": 29,
           "type": "Antacid",
-          "name": "Misoprostol",
-          "boxes_remaining": 42,
-          "cost_per_box": 12.20
-        },
-        {
-          "type": "Painkiller",
-          "name": "Morphine",
-          "boxes_remaining": 63,
-          "cost_per_box": 11.90
-        },
-        {
-          "type": "Antihistamine",
-          "name": "Terfenadine",
-          "boxes_remaining": 59,
-          "cost_per_box": 11.25
-        },
-        {
-          "type": "Antibiotic",
-          "name": "Gentamicin",
-          "boxes_remaining": 55,
-          "cost_per_box": 15.50
-        },
-        {
-          "type": "Antacid",
-          "name": "Rabeprazole",
-          "boxes_remaining": 40,
-          "cost_per_box": 11.75
+          "name": "Magnesium hydroxide",
+          "boxes_remaining": 46,
+          "cost_per_box": 14
         }
       ]
     }
