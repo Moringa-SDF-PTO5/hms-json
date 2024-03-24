@@ -179,64 +179,143 @@
         "duration": 30
       }  
     ],
-     "staffMembers":
-      [
-        {
-          "id": 201,
-          "name": "Nurse Lisa",
-          "position": "Registered Nurse",
-          "contact": "555-456-7890",
-          "email": "nurse.lisa@example.com",
-          "department": "Emergency Department",
-          "shift": "Night shift, 7pm-7am",
-          "responsibilities": "Assisting doctors during patient examinations, administering medications, monitoring patient vitals",
-          "certifications": ["BLS", "ACLS"]
-        },
-        {
-          "id": 202,
-          "name": "Receptionist Mike",
-          "position": "Front Desk Staff",
-          "contact": "555-321-9876",
-          "email": "receptionist.mike@example.com",
-          "department": "Administration",
-          "shift": "Day shift, 8am-4pm",
-          "responsibilities": "Greeting patients, scheduling appointments, handling phone calls, managing patient records",
-          "certifications": []
-        },
-        {
-          "id": 203,
-          "name": "Physician Assistant Sarah",
-          "position": "Physician Assistant",
-          "contact": "555-987-6543",
-          "email": "pa.sarah@example.com",
-          "department": "Emergency Department",
-          "shift": "Rotating shifts",
-          "responsibilities": "Assisting doctors in diagnosis and treatment, performing medical procedures, patient education",
-          "certifications": ["PA-C", "BLS", "ACLS"]
-        },
-        {
-          "id": 204,
-          "name": "Medical Technologist Alex",
-          "position": "Medical Technologist",
-          "contact": "555-555-5555",
-          "email": "mt.alex@example.com",
-          "department": "Laboratory",
-          "shift": "Evening shift, 3pm-11pm",
-          "responsibilities": "Performing laboratory tests, analyzing samples, maintaining lab equipment",
-          "certifications": ["MT(ASCP)"]
-        },
-        {
-          "id": 205,
-          "name": "Physical Therapist Emily",
-          "position": "Physical Therapist",
-          "contact": "555-123-4567",
-          "email": "pt.emily@example.com",
-          "department": "Rehabilitation Services",
-          "shift": "Day shift, 9am-5pm",
-          "responsibilities": "Assessing patient needs, developing treatment plans, conducting therapy sessions",
-          "certifications": ["PT"]
-        }
-    ],
+    "medicalStaff": [
+      {
+        "id": 101,
+        "name": "Dr. David Johnson",
+        "department": "Cardiology",
+        "contact": "555-123-4567",
+        "email": "dr.david@example.com",
+        "hospital": "City Hospital",
+        "officeDays": "Monday-Friday, 9am-5pm",
+        "roomNumber": "210",
+        "bio": "Dr. David Johnson is a board-certified cardiologist with over 15 years of experience...",
+        "patients": [1, 3, 5],
+        "position": "Physician"
+      
+      },
+      {
+        "id": 102,
+        "name": "Dr. Sarah Lee",
+        "contact": "555-987-6543",
+        "email": "dr.sarah@example.com",
+        "hospital": "Children's Hospital",
+        "officeDays": "Monday-Friday, 8am-4pm",
+        "roomNumber": "305",
+        "bio": "Dr. Sarah Lee specializes in pediatric care and has a passion for helping children...",
+        "patients": [2, 4],
+        "position": "Physician",
+        "department": "Pediatrics"
+      },
+      {
+        "id": 103,
+        "name": "Dr. Michael Brown",
+        "contact": "555-222-3333",
+        "email": "dr.michael@example.com",
+        "hospital": "Community Hospital",
+        "officeDays": "Monday-Wednesday-Friday, 9am-1pm",
+        "roomNumber": "410",
+        "bio": "Dr. Michael Brown is an orthopedic surgeon specializing in sports injuries and joint replacements...",
+        "patients": [6, 8, 10],
+        "position": "Physician",
+        "department": "Orthopedics"
+      },
+      {
+        "id": 104,
+        "name": "Dr. Emily Nguyen",
+        "contact": "555-444-5555",
+        "email": "dr.emily@example.com",
+        "hospital": "University Medical Center",
+        "officeDays":"day-Thursday, 10am-3pm",
+        "roomNumber": "512",
+        "bio": "Dr. Emily Nguyen is an oncologist dedicated to providing compassionate care to cancer patients...",
+        "patients": [7, 9],
+        "position": "Physician",
+        "department": "Oncology"
+      },
+      {
+        "id": 105,
+        "name": "Dr. Jason Patel",
+        "contact": "555-666-7777",
+        "email": "dr.jason@example.com",
+        "hospital": "Dermatology Clinic",
+        "officeDays": "Monday-Friday, 8am-12pm",
+        "roomNumber": "108",
+        "bio": "Dr. Jason Patel specializes in diagnosing and treating skin conditions...",
+        "patients": [11, 12],
+        "position": "Physician",
+        "department": "Dermatology"
+      },
+      {
+        "id": 106,
+        "name": "Dr. Maria Rodriguez",
+         "contact": "555-777-8888",
+        "email": "dr.maria@example.com",
+        "hospital": "City Medical Center",
+        "officeDays": "Monday-Friday, 9am-6pm",
+        "roomNumber": "320",
+        "bio": "Dr. Maria Rodriguez provides comprehensive care for adults, focusing on preventive medicine and chronic disease management...",
+        "patients": [13, 14, 15],
+        "position": "Physician",
+        "department": "Internal Medicine"
+      },
+      {
+        "id": 201,
+        "name": "Nurse Lisa",
+        "position": "Registered Nurse",
+        "contact": "555-456-7890",
+        "email": "nurse.lisa@example.com",
+        "department": "Emergency Department",
+        "shift": "Night shift, 7pm-7am",
+        "responsibilities": "Assisting doctors during patient examinations, administering medications, monitoring patient vitals",
+        "certifications": ["BLS", "ACLS"]
+      },
+      {
+        "id": 202,
+        "name": "Receptionist Mike",
+        "position": "Front Desk Staff",
+        "contact": "555-321-9876",
+        "email": "receptionist.mike@example.com",
+        "department": "Administration",
+        "shift": "Day shift, 8am-4pm",
+        "responsibilities": "Greeting patients, scheduling appointments, handling phone calls, managing patient records",
+        "certifications": []
+      },
+      {
+        "id": 203,
+        "name": "Physician Assistant Sarah",
+        "position": "Physician Assistant",
+        "contact": "555-987-6543",
+        "email": "pa.sarah@example.com",
+        "department": "Emergency Department",
+        "shift": "Rotating shifts",
+        "responsibilities": "Assisting doctors in diagnosis and treatment, performing medical procedures, patient education",
+        "certifications": ["PA-C", "BLS", "ACLS"]
+      },
+      {
+        "id": 204,
+        "name": "Medical Technologist Alex",
+        "position": "Medical Technologist",
+        "contact": "555-555-5555",
+        "email": "mt.alex@example.com",
+        "department": "Laboratory",
+        "shift": "Evening shift, 3pm-11pm",
+        "responsibilities": "Performing laboratory tests, analyzing samples, maintaining lab equipment",
+        "certifications": ["MT(ASCP)"]
+      },
+      {
+        "id": 205,
+        "name": "Physical Therapist Emily",
+        "position": "Physical Therapist",
+        "contact": "555-123-4567",
+        "email": "pt.emily@example.com",
+        "department": "Rehabilitation Services",
+        "shift": "Day shift, 9am-5pm",
+        "responsibilities": "Assessing patient needs, developing treatment plans, conducting therapy sessions",
+        "certifications": ["PT"]
+      }
+    ]
+  ,
     "patients": [
         {
           "id": 1,
