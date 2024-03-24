@@ -10,23 +10,7 @@
         "officeHours": "Monday-Friday, 9am-5pm",
         "roomNumber": "210",
         "bio": "Dr. David Johnson is a board-certified cardiologist with over 15 years of experience...",
-        "patients": [1, 3, 5],
-        "schedule": [
-          {
-            "day": "Monday",
-            "timeSlots": [
-              { "start": "09:00 AM", "end": "12:00 PM" },
-              { "start": "02:00 PM", "end": "05:00 PM" }
-            ]
-          },
-          {
-            "day": "Tuesday",
-          "timeSlots": [
-            { "start": "10:00 AM", "end": "01:00 PM" },
-            { "start": "03:00 PM", "end": "06:00 PM" }
-          ]
-          }
-        ] 
+        "patients": [1, 3, 5]
       },
       {
         "id": 102,
@@ -62,24 +46,7 @@
         "officeHours": "Tuesday-Thursday, 10am-3pm",
         "roomNumber": "512",
         "bio": "Dr. Emily Nguyen is an oncologist dedicated to providing compassionate care to cancer patients...",
-        "patients": [7, 9],
-        "schedule": [
-          {
-            "day": "Tuesday",
-            "timeSlots": [
-              { "start": "10:00 AM", "end": "01:00 PM" },
-              { "start": "03:00 PM", "end": "06:00 PM" }
-            ]
-          },
-          {
-            "day": "Thursday",
-            "timeSlots": [
-              { "start": "10:00 AM", "end": "01:00 PM" },
-              { "start": "03:00 PM", "end": "06:00 PM" }
-            ]
-          }
-        ]
-
+        "patients": [7, 9]
       },
       {
         "id": 105,
@@ -106,56 +73,104 @@
         "patients": [13, 14, 15]  
       },
       {
-        "id": 101,
-        "name": "Dr. David Johnson",
+        "id": 107,
+        "name": "Dr. Daniel Carson",
         "specialty": "Cardiology",
         "contact": "555-123-4567",
-        "email": "dr.david@example.com",
+        "email": "dr.daniel@example.com",
         "hospital": "City Hospital",
         "officeHours": "Monday-Friday, 9am-5pm",
         "roomNumber": "210",
         "bio": "Dr. David Johnson is a board-certified cardiologist with over 15 years of experience...",
-        "patients": [1, 3, 5]  
+        "patients": [1, 3, 5]
       },
       {
-        "id": 102,
-        "name": "Dr. Sarah Lee",
-        "specialty": "Pediatrics",
-        "contact": "555-987-6543",
-        "email": "dr.sarah@example.com",
-        "hospital": "Children's Hospital",
-        "officeHours": "Monday-Friday, 8am-4pm",
-        "roomNumber": "305",
-        "bio": "Dr. Sarah Lee specializes in pediatric care and has a passion for helping children...",
-        "patients": [2, 4]  
-      },
-      {
-        "id": 103,
-        "name": "Dr. Michael Brown",
-        "specialty": "Orthopedics",
-        "contact": "555-222-3333",
-        "email": "dr.michael@example.com",
-        "hospital": "Community Hospital",
-        "officeHours": "Monday-Wednesday-Friday, 9am-1pm",
-        "roomNumber": "410",
-        "bio": "Dr. Michael Brown is an orthopedic surgeon specializing in sports injuries and joint replacements...",
-        "patients": [6, 8, 10]  
-      },
-      {
-        "id": 104,
-        "name": "Dr. Emily Nguyen",
-        "specialty": "Oncology",
-        "contact": "555-444-5555",
-        "email": "dr.emily@example.com",
-        "hospital": "University Medical Center",
-        "officeHours": "Tuesday-Thursday, 10am-3pm",
-        "roomNumber": "512",
-        "bio": "Dr. Emily Nguyen is an oncologist dedicated to providing compassionate care to cancer patients...",
-        "patients": [7, 9]  
-      }
-      
+        "id": 108,
+        "name": "Dr. Jeniffer Smith",
+        "specialty": "Dermatology",
+        "contact": "555-111-2222",
+        "email": "dr.jeniffer@example.com",
+        "hospital": "Skin Clinic",
+        "officeHours": "Tuesday-Friday, 10am-6pm",
+        "roomNumber": "105",
+        "bio": "Dr. Jennifer Smith is a dermatologist with expertise in skin conditions and treatments. She has been practicing for over a decade, providing personalized care to her patients.",
+        "patients": [11, 13, 15]
+      } 
     ],
-    "staffMembers": [
+    "appointments": [
+      {
+        "id": 1,
+        "doctorId": 101,
+        "patientId": 1,
+        "date": "2024-04-01T09:00:00.000Z",
+        "duration": 30
+      },
+      {
+        "id": 2,
+        "doctorId": 101,
+        "patientId": 3,
+        "date": "2024-04-02T14:00:00.000Z",
+        "duration": 30
+      },
+      {
+        "id": 3,
+        "doctorId": 101,
+        "patientId": 5,
+        "date": "2024-04-03T11:00:00.000Z",
+        "duration": 30
+      },
+      {
+        "id": 4,
+        "doctorId": 102,
+        "patientId": 2,
+        "date": "2024-04-04T10:00:00.000Z",
+        "duration": 30
+      },
+      {
+        "id": 5,
+        "doctorId": 102,
+        "patientId": 4,
+        "date": "2024-04-05T15:00:00.000Z",
+        "duration": 30
+      },
+      {
+        "id": 6,
+        "doctorId": 103,
+        "patientId": 6,
+        "date": "2024-04-06T09:00:00.000Z",
+        "duration": 30
+      },
+      {
+        "id": 7,
+        "doctorId": 103,
+        "patientId": 8,
+        "date": "2024-04-07T14:00:00.000Z",
+        "duration": 30
+      },
+      {
+        "id": 8,
+        "doctorId": 103,
+        "patientId": 10,
+        "date": "2024-04-08T11:00:00.000Z",
+        "duration": 30
+      },
+      {
+        "id": 9,
+        "doctorId": 104,
+        "patientId": 7,
+        "date": "2024-04-09T10:00:00.000Z",
+        "duration": 30
+      },
+      {
+        "id": 10,
+        "doctorId": 104,
+        "patientId": 9,
+        "date": "2024-04-10T15:00:00.000Z",
+        "duration": 30
+      }  
+    ],
+     "staffMembers":
+      [
         {
           "id": 201,
           "name": "Nurse Lisa",
@@ -303,8 +318,143 @@
             "relationship": "Parent",
             "contact": "987-654-3210"
           }
+        },
+        {
+          "id": 7,
+          "name": "Robert Miller",
+          "age": 40,
+          "gender": "Male",
+          "contact": "555-111-2222",
+          "email": "robert@example.com",
+          "address": "123 Cherry St, Smalltown, XYZ",
+          "medicalHistory": "Heart disease",
+          "emergencyContact": {
+            "name": "Susan Miller",
+            "relationship": "Spouse",
+            "contact": "555-222-3333"
+          }
+        },
+        {
+          "id": 8,
+          "name": "Laura Davis",
+          "age": 30,
+          "gender": "Female",
+          "contact": "555-333-4444",
+          "email": "laura@example.com",
+          "address": "456 Walnut St, Bigcity, XYZ",
+          "medicalHistory": "Asthma",
+          "emergencyContact": {
+            "name": "John Davis",
+            "relationship": "Parent",
+            "contact": "555-444-5555"
+          }
+        },
+        {
+          "id": 9,
+          "name": "Michael Johnson",
+          "age": 45,
+          "gender": "Male",
+          "contact": "555-555-6666",
+          "email": "michael@example.com",
+          "address": "789 Pine St, Midtown, XYZ",
+          "medicalHistory": "Diabetes",
+          "emergencyContact": {
+            "name": "Anna Johnson",
+            "relationship": "Parent",
+            "contact": "555-666-7777"
+          }
+        },
+        {
+          "id": 10,
+          "name": "Emily Wilson",
+          "age": 32,
+          "gender": "Female",
+          "contact": "555-777-8888",
+          "email": "emily@example.com",
+          "address": "101 Maple Ave, Uptown, XYZ",
+          "medicalHistory": "High blood pressure",
+          "emergencyContact": {
+            "name": "James Wilson",
+            "relationship": "Sibling",
+            "contact": "555-888-9999"
+          }
+        },
+        {
+          "id": 11,
+          "name": "Daniel Brown",
+          "age": 50,
+          "gender": "Male",
+          "contact": "555-999-1111",
+          "email": "daniel@example.com",
+          "address": "567 Oak St, Downtown, XYZ",
+          "medicalHistory": "Arthritis",
+          "emergencyContact": {
+            "name": "Sarah Brown",
+            "relationship": "Spouse",
+            "contact": "555-111-2222"
+          }
+        },
+        {
+          "id": 12,
+          "name": "Sophia Garcia",
+          "age": 25,
+          "gender": "Female",
+          "contact": "555-222-3333",
+          "email": "sophia@example.com",
+          "address": "876 Elm St, Oldtown, XYZ",
+          "medicalHistory": "Anxiety disorder",
+          "emergencyContact": {
+            "name": "Maria Garcia",
+            "relationship": "Parent",
+            "contact": "555-333-4444"
+          }
+        },
+        {
+          "id": 13,
+          "name": "Michael Thomas",
+          "age": 55,
+          "gender": "Male",
+          "contact": "555-444-5555",
+          "email": "michael@example.com",
+          "address": "234 Birch St, Newtown, XYZ",
+          "medicalHistory": "Heart disease",
+          "emergencyContact": {
+            "name": "Mary Thomas",
+            "relationship": "Spouse",
+            "contact": "555-555-6666"
+          }
+        },
+        {
+          "id": 14,
+          "name": "Linda Jackson",
+          "age": 60,
+          "gender": "Female",
+          "contact": "555-666-7777",
+          "email": "linda@example.com",
+          "address": "345 Cedar St, Greentown, XYZ",
+          "medicalHistory": "Diabetes",
+          "emergencyContact": {
+            "name": "Joseph Jackson",
+            "relationship": "Sibling",
+            "contact": "555-777-8888"
+          }
+        },
+        {
+          "id": 15,
+          "name": "William White",
+          "age": 65,
+          "gender": "Male",
+          "contact": "555-888-9999",
+          "email": "william@example.com",
+          "address": "456 Spruce St, Bluetown, XYZ",
+          "medicalHistory": "Asthma",
+          "emergencyContact": {
+            "name": "Barbara White",
+            "relationship": "Spouse",
+            "contact": "555-999-1111"
+          }
         }
-    ],
+      ],
       "medicine": [
         {
           "type": "Painkiller",
