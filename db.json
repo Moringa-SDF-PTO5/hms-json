@@ -742,32 +742,18 @@
           "cost_per_box": 14
         },
         {
-          "id": 26,
-          "type": "Painkiller",
-          "name": "Hydrocodone",
-          "boxes_remaining": 69,
-          "cost_per_box": 10.75
-        },
-        {
-          "id": 27,
-          "type": "Antihistamine",
-          "name": "Promethazine",
-          "boxes_remaining": 62,
-          "cost_per_box": 12.5
-        },
-        {
-          "id": 28,
+          "id": 1711049501896,
           "type": "Antibiotic",
-          "name": "Erythromycin",
-          "boxes_remaining": 52,
-          "cost_per_box": 15.5
+          "name": "Minocycline",
+          "boxes_remaining": "68",
+          "cost_per_box": "13"
         },
         {
-          "id": 29,
-          "type": "Antacid",
-          "name": "Magnesium hydroxide",
-          "boxes_remaining": 46,
-          "cost_per_box": 14
+          "id": 1711050787606,
+          "type": "Painkiller",
+          "name": "Paracetemol",
+          "boxes_remaining": "20",
+          "cost_per_box": "15"
         }
       ]
     }
