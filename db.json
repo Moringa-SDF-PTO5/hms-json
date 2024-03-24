@@ -102,6 +102,7 @@
         "id": 1,
         "doctorId": 101,
         "patientId": 1,
+        "doctor": "Dr. David Johnson",
         "date": "2024-04-01T09:00:00.000Z",
         "duration": 30
       },
@@ -109,6 +110,7 @@
         "id": 2,
         "doctorId": 101,
         "patientId": 3,
+        "doctor": "Dr. David Johnson",
         "date": "2024-04-02T14:00:00.000Z",
         "duration": 30
       },
@@ -116,12 +118,14 @@
         "id": 3,
         "doctorId": 101,
         "patientId": 5,
+        "doctor": "Dr. David Johnson",
         "date": "2024-04-03T11:00:00.000Z",
         "duration": 30
       },
       {
         "id": 4,
         "doctorId": 102,
+        "doctor": "Dr. Sarah Lee",
         "patientId": 2,
         "date": "2024-04-04T10:00:00.000Z",
         "duration": 30
@@ -130,6 +134,7 @@
         "id": 5,
         "doctorId": 102,
         "patientId": 4,
+        "doctor": "Dr. Sarah Lee",
         "date": "2024-04-05T15:00:00.000Z",
         "duration": 30
       },
@@ -137,6 +142,7 @@
         "id": 6,
         "doctorId": 103,
         "patientId": 6,
+        "doctor": "Dr. Michael Brown",
         "date": "2024-04-06T09:00:00.000Z",
         "duration": 30
       },
@@ -144,6 +150,7 @@
         "id": 7,
         "doctorId": 103,
         "patientId": 8,
+        "doctor": "Dr. Michael Brown",
         "date": "2024-04-07T14:00:00.000Z",
         "duration": 30
       },
@@ -151,6 +158,7 @@
         "id": 8,
         "doctorId": 103,
         "patientId": 10,
+        "doctor": "Dr. Michael Brown",
         "date": "2024-04-08T11:00:00.000Z",
         "duration": 30
       },
@@ -158,6 +166,7 @@
         "id": 9,
         "doctorId": 104,
         "patientId": 7,
+        "doctor": "Dr. Emily Nguyen",
         "date": "2024-04-09T10:00:00.000Z",
         "duration": 30
       },
@@ -165,6 +174,7 @@
         "id": 10,
         "doctorId": 104,
         "patientId": 9,
+        "doctor": "Dr. Emily Nguyen",
         "date": "2024-04-10T15:00:00.000Z",
         "duration": 30
       }  
